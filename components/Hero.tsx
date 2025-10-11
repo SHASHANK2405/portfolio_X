@@ -87,7 +87,7 @@ const Hero = () => {
 
         {/* Right Column with floating animation */}
         <motion.div
-          className="flex justify-center lg:justify-end z-10"
+          className="flex justify-center lg:justify-end mt-8 lg:mt-0"
           animate={{
             rotateX: [0, 10, 0, -10, 0],
             rotateY: [0, -10, 0, 10, 0],
@@ -103,9 +103,9 @@ const Hero = () => {
           <Image
             src="/assets/PfpPng.png"
             alt="Hero"
-            width={500}
-            height={500}
-            className="rounded-lg shadow-lg"
+            width={300}
+            height={300}
+            className="rounded-lg shadow-lg sm:w-64 sm:h-64 md:w-96 md:h-96 lg:w-[500px] lg:h-[500px]"
             priority
           />
         </motion.div>
@@ -113,12 +113,12 @@ const Hero = () => {
       {/* <div className="flex items-center justify-center min-h-screen bg-black"> */}
       <h1
         className="absolute -bottom-8 left-[10%]
-    text-6xl md:text-8xl lg:text-9xl font-black uppercase tracking-[6px]
-    text-transparent
-    [font-family:'Arial_Black',sans-serif]
-    bg-clip-text
-    [-webkit-background-clip:text]
-  "
+        text-5xl md:text-xl lg:text-9xl font-black uppercase tracking-[6px]
+        text-transparent
+        [font-family:'Arial_Black',sans-serif]
+        bg-clip-text
+        [-webkit-background-clip:text]
+      "
         style={{
           backgroundImage:
             "repeating-linear-gradient(to bottom, #45089D 0px, #4B0082 2px, transparent 2px, transparent 8px)",

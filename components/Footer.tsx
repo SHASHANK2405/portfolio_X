@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="relative w-full mb-[100px] md:mb-2 p-10" id="contact">
+    <footer className="relative w-full md:mb-2 p-10" id="contact">
       {/* Background image */}
       <div className="absolute inset-0 ">
         <Image
@@ -31,7 +31,7 @@ const Footer = () => {
             title="Let's get in touch"
             icon={<FaLocationArrow />}
             position="right"
-          />  
+          />
         </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">

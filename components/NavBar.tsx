@@ -38,7 +38,7 @@ export default function NavBar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-6">
-          {["home", "skills", "projects"].map((link) => (
+          {["home", "skills", "Games"].map((link) => (
             <a
               key={link}
               href={`#${link}`}
@@ -85,7 +85,7 @@ export default function NavBar() {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden bg-[#121212] flex flex-col items-center py-4 space-y-4">
-          {["home", "skills", "projects"].map((link) => (
+          {["home", "skills", "Games"].map((link) => (
             <a
               key={link}
               href={`#${link}`}

@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
 :root {
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Roboto", sans-serif;
+}
+:root {
   --background: #45089d;
   --foreground: #ededed;
 }

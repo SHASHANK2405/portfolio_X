@@ -245,30 +245,30 @@ export const workExperience = [
 ];
 
 export const socialMedia = [
+  // {
+  //   id: 1,
+  //   img: "/link.svg",
+  //   link: "https://www.linkedin.com/in/kunaldhand",
+  // },
+  // {
+  //   id: 2,
+  //   img: "/git.svg",
+  //   link: "https://github.com/kunal1632",
+  // },
   {
     id: 1,
-    img: "/link.svg",
-    link: "https://www.linkedin.com/in/kunaldhand",
+    img: "/twit.svg",
+    link: "https://x.com/EcoCrashed",
   },
+  // {
+  //   id: 4,
+  //   img: "/insta.svg",
+  //   link: "https://www.instagram.com/kunaldhand_/",
+  // },
   {
     id: 2,
-    img: "/git.svg",
-    link: "https://github.com/kunal1632",
-  },
-  {
-    id: 3,
-    img: "/twit.svg",
-    link: "https://x.com/Kunal65450888",
-  },
-  {
-    id: 4,
-    img: "/insta.svg",
-    link: "https://www.instagram.com/kunaldhand_/",
-  },
-  {
-    id: 5,
     img: "/discord.svg",
-    link: "https://discord.com/users/441643533342998528",
+    link: "https://discord.com/users/ecocrashed",
   },
 ];
 
