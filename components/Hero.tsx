@@ -25,7 +25,7 @@ const Hero = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <div className="pb-20 pt-36 h-screen relative">
+    <div className="pb-20 pt-36 h-screen relative" id="home">
       <AnimatedBackground />
       {/* Background Image */}
       <div className="absolute inset-0 h-screen overflow-hidden">

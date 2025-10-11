@@ -18,7 +18,10 @@ const Contactus: React.FC = () => {
   };
 
   return (
-    <div className="relative p-6 sm:p-8 lg:p-4 w-full bg-gradient-to-r from-[#8E2DE2] via-[#6A11CB] to-[#3A0CA3]">
+    <div
+      className="relative p-6 sm:p-8 lg:p-4 w-full bg-gradient-to-r from-[#8E2DE2] via-[#6A11CB] to-[#3A0CA3]"
+      id="connect"
+    >
       <div className="mx-auto w-full max-w-7xl flex flex-col lg:flex-row justify-between gap-8 sm:gap-10 text-white my-10">
         {/* Left side - Image */}
         <div className="w-full lg:w-1/2 flex justify-center items-center">
